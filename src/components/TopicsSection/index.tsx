@@ -10,7 +10,9 @@ export function TopicsSection({subject} : {subject : string}) {
     const [post, setPost] = useState([])
 
     useState(() => {
-        axios.get(baseUrl)
+        axios.get(baseUrl, {
+        headers : { Authorization: '7420c10ffcef4573a05e58adba264b44' }
+        })
         .then((res) => {
             setPost(res.data.articles)
         })
