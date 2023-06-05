@@ -6,7 +6,7 @@ const baseUrl = `https://newsapi.org/v2/top-headlines`
 
 export function TopicsSection({subject} : {subject : string}) {
 
-    const baseUrl = `https://newsapi.org/v2/top-headlines?apiKey=7420c10ffcef4573a05e58adba264b44&q=${subject}&pageSize=3`
+    const baseUrl = `https://newsapi.org/v2/top-headlines?q=${subject}&pageSize=3`
     const [post, setPost] = useState([])
 
     useState(() => {
