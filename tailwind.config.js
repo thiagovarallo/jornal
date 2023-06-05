@@ -13,6 +13,12 @@ module.exports = {
       },
       fontFamily : {
         "inter" : 'Inter'
+      },
+      borderColor : {
+        "primary" : "#005587"
+      },
+      textColor : {
+        "primary" : "#005587"
       }
     },
   },

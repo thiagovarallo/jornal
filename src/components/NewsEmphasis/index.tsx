@@ -1,6 +1,6 @@
 export default function NewsEmphasis() {
     return (
-        <section className="w-full h-[30rem] mt-3 px-5 py-4 mb-16 lg:px-44 lg:py-5">
+        <section className="w-full h-[30rem] mt-3 px-5 lg:px-44">
             <section className="w-full h-full bg-blue-500 lg:flex">
                 <div className="w-full h-1/2 lg:w-6/12 lg:h-full bg-zinc-800">
 
